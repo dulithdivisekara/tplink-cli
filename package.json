@@ -1,0 +1,31 @@
+{
+  "name": "tplink-router-cli",
+  "version": "1.0.0",
+  "description": "Universal TP-Link Router CLI & Network Optimization Suite (Linux, macOS, Windows)",
+  "main": "bin/tplink-cli.js",
+  "bin": {
+    "tplink-cli": "bin/tplink-cli.js"
+  },
+  "keywords": [
+    "tplink",
+    "cli",
+    "router",
+    "network-optimization",
+    "archer-mr200",
+    "cell-lock",
+    "bbr"
+  ],
+  "author": "Dulith Divisekara <dulithdivisekara@gmail.com> (https://github.com/dulithdivisekara)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dulithdivisekara/tplink-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dulithdivisekara/tplink-cli/issues"
+  },
+  "homepage": "https://github.com/dulithdivisekara/tplink-cli#readme",
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
