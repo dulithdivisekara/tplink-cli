@@ -98,7 +98,28 @@ tplink-cli config show
 
 ---
 
-## 🛠️ Complete CLI Command Reference (18 Commands)
+## ✨ Animated `vadimdemedes/ink` React Terminal UI (TUI)
+
+`tplink-cli` ships a genuine **[`vadimdemedes/ink`](https://github.com/vadimdemedes/ink) (React 19 + Yoga v3 Flexbox)** interactive Terminal UI with **Claude-Code-style animations** alongside a pure-Python fallback engine and classic `--legacy` CLI mode:
+
+```bash
+tplink-cli                  # Launch full-screen animated Ink React TUI (default in TTY)
+tplink-cli tui              # Explicit TUI subcommand
+tplink-cli --mono           # Launch TUI in high-contrast Monochrome Black & White mode
+tplink-cli --no-anim        # Disable logo wave shimmer & transient motion spinners
+tplink-cli --python-tui     # Use pure-Python fallback TUI engine
+tplink-cli --legacy         # Classic plain-ASCII layout & standard argparse help
+```
+
+### Interactive TUI Highlights & Hotkeys
+- **Shimmering Half-Block TP-Link Emblem**: Sub-pixel Unicode Half-Block (`▀`, `▄`, `█`) TP-Link `P+T` logo with a smooth diagonal `#4DCCD5` Cyan luminescence wave (or silver-white wave in `[m]` Monochrome mode).
+- **Claude-Code-Style Non-Blocking Activity Bar**: Morphing starburst glyph (`✢ ✳ ✶ ✻ ✽`) + character-by-character sweeping highlight + live `0.1s` elapsed timer while RSA-1024 / AES-128 router handshakes run asynchronously over a serialized single-session bridge.
+- **Live RF & Throughput Waveform Stream (`[l]` / Tab `2`)**: Real-time pulsing gateway beacon (`◉ LIVE RF STREAM`) and scrolling Unicode sparkline waveforms (`▁▂▃▄▅▆▇█`) for **Downlink (`↓ Mbps`)**, **Uplink (`↑ Kbps`)**, and **RF Signal Bars (`▂▄▆█`)**.
+- **Keyboard Ergonomics**: `↑`/`↓` scroll · `←`/`→`/`Tab`/`1`–`7` switch tabs · **`Spacebar`** queue `[✔]` batch commands or flip `[● ON]`/`[○ OFF]` hardware switches · **`Enter`** execute · `/` fuzzy search · `m` Cyan/Mono · `a` pause/resume animations · `r` poll RF · `q` quit.
+
+---
+
+## 🛠️ Complete CLI Command Reference (31 Commands)
 
 ```bash
 # 1. General Telemetry & Live Radio

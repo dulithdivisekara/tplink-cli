@@ -42,3 +42,7 @@ tplink-cli = "tplink_cli.cli.main:main"
 Homepage = "https://github.com/dulithdivisekara/tplink-cli"
 Repository = "https://github.com/dulithdivisekara/tplink-cli.git"
 Issues = "https://github.com/dulithdivisekara/tplink-cli/issues"
+
+[tool.setuptools.package-data]
+"*" = ["*.mjs", "*.html", "*.css", "*.js", "*.json"]
+

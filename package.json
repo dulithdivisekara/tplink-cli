@@ -9,6 +9,9 @@
   "keywords": [
     "tplink",
     "cli",
+    "tui",
+    "ink",
+    "react-cli",
     "router",
     "network-optimization",
     "archer-mr200",
